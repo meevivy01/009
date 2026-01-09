@@ -95,10 +95,10 @@ if os.path.exists(CLIENTS_PATH):
                 elif not isinstance(CLIENTS_TARGETS[k], list): CLIENTS_TARGETS[k] = [str(CLIENTS_TARGETS[k])]
     except: pass
 
-TARGET_UNIVERSITIES = ["วลัยลักษณ์", "Walailak University"]  
+TARGET_UNIVERSITIES = ["เชียงใหม่", "Cosmetic Chiangmai"]  
 TARGET_FACULTIES = ["เครื่องสำอาง","Cosmetic Science"] 
 TARGET_MAJORS = ["เครื่องสำอาง", "วิทยาศาสตร์เครื่องสำอาง","Cosmetic Science", "Cosmetics", "Cosmetic"]
-SEARCH_KEYWORDS = ["วลัยลักษณ์ เครื่องสำอาง","Cosmetic Walailak"]
+SEARCH_KEYWORDS = ["เชียงใหม่ เครื่องสำอาง","Cosmetic Chiangmai"]
 
 KEYWORDS_CONFIG = {
     "NPD": {"titles": ["NPD", "R&D", "RD", "Research", "Development", "วิจัย", "พัฒนา", "Formulation", "สูตร"]},
