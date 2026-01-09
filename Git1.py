@@ -345,7 +345,7 @@ class JobThaiRowScraper:
                 time.sleep(5)
                 
                 self.driver.get("https://www3.jobthai.com/findresume/findresume.php?l=th")
-                time.sleep(3)
+                time.sleep(5)
                 
                 if "login" not in self.driver.current_url:
                     console.print("🎉 Login Bypass ด้วย Cookie สำเร็จ!", style="success")
